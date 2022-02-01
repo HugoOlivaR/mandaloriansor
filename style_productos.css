@@ -1,0 +1,325 @@
+@import url(https://allfont.es/allfont.css?fonts=star-jedi);
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("fondo.jpg");
+    background-size: 100%;
+
+}
+
+a {
+    font-size: 23px;
+    font-family: 'Open Sans Extrabold', arial;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* SCROLL */
+
+.container::-webkit-scrollbar {
+    width: 0px;     /* Tamaño del scroll en vertical */
+    height: 0px;    /* Tamaño del scroll en horizontal */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.container::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 1px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.container::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.container::-webkit-scrollbar-thumb:active {
+    background-color: transparent;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.container::-webkit-scrollbar-track {
+    background: transparent;
+    display: none;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+.container::-webkit-scrollbar-track:hover,
+.container::-webkit-scrollbar-track:active {
+  background: transparent;
+}
+
+
+
+.letras {
+    height: 17%;
+    position: absolute;
+    top: 2%;
+    left: 33%;
+    transition: ease 1.5s;
+    z-index: 3;
+}
+
+/* NAVBAR */
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    top: 25%;
+}
+
+.inicio {
+    height: 100px;
+    width: 15%;
+    text-align: center;
+    position: relative;
+    top: 10%;
+    left: 22%;
+    padding-top: 0;
+    border: #ffbb72 solid 3px;
+    box-shadow:inset 0px 0px 20px 3px #ffbb72;
+    border-radius: 25px;
+    transition: ease 0.3s;
+}
+
+.inicio:hover {
+    box-shadow:inset 0px 0px 30px 4px #ffbb72;
+}
+
+.pinicio {
+    margin: 0%;
+    padding-top: 35px;
+    color: #ffbb72;
+}
+
+.productos {
+    height: 100px;
+    width: 15%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 42%;
+    padding-top: 0;
+    border: #ffbb72 solid 3px;
+    box-shadow:inset 0px 0px 20px 3px #ffbb72;
+    border-radius: 25px;
+    transition: ease 0.3s;
+}
+
+.productos:hover {
+    box-shadow:inset 0px 0px 30px 4px #ffbb72;
+}
+
+.pproductos {
+    margin: 0%;
+    padding-top: 35px;
+    color: #ffbb72;
+}
+
+.contacto {
+    height: 100px;
+    width: 15%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 62%;
+    padding-top: 0;
+    border: #ffbb72 solid 3px;
+    box-shadow:inset 0px 0px 20px 3px #ffbb72;
+    border-radius: 25px;
+    transition: ease 0.3s;
+}
+
+.contacto:hover {
+    box-shadow:inset 0px 0px 30px 4px #ffbb72;
+}
+
+.pcontacto {
+    margin: 0%;
+    padding-top: 35px;
+    color: #ffbb72;
+}
+
+.neon {
+    font-size: 50px;
+    letter-spacing:-2px;
+    color: red;
+    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 25px red;
+    -webkit-text-fill-color: #F4ECFF;
+    -webkit-text-stroke-color:red;
+    -webkit-text-stroke-width:0.2px;
+    -moz-text-fill-color: red;
+    -moz-text-stroke-color:red;
+    -moz-text-stroke-width:0.2px;
+    text-align: center;
+    top: 50%;
+    left: 43%;
+    position: absolute;
+    }
+
+.zapatilla {
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    left: 22%;
+    top: 65%;
+}
+
+.zapatilla2 {
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    right: 22%;
+    top: 140%;
+}
+
+.llavero {
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    left: 22%;
+    top: 220%;
+}
+
+.taza {
+    height: 350px;
+    width: 350px;
+    border-radius: 30px;
+    position: absolute;
+    right: 22%;
+    top: 290%;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Open Sans Extrabold', arial;
+}
+
+
+
+.titulo1{
+    position: absolute;
+    top: 65%;
+    right: 22%;
+}
+
+.texto1 {
+    height: 180px;
+    width: 380px;
+    position: absolute;
+    top: 80%;
+    right: 22%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans Extrabold', arial;
+}
+
+.compra1 {
+    padding: 10px;
+    right: 22%;
+    top: 110%;
+    position: absolute;
+    font-size: 20px;
+    color: #ffbb72;
+    border: #ffbb72 solid 3px;
+    box-shadow:inset 0px 0px 10px 2px #ffbb72;
+    border-radius: 20px;
+}
+
+
+.titulo2{
+    position: absolute;
+    top: 140%;
+    left: 22%;
+}
+
+.texto2{
+    height: 180px;
+    width: 380px;
+    position: absolute;
+    top: 155%;
+    left: 22%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans Extrabold', arial;
+}
+
+.compra2{
+    padding: 10px;
+    left: 22%;
+    top: 185%;
+    position: absolute;
+    font-size: 20px;
+    color: #ffbb72;
+    border: #ffbb72 solid 3px;
+    box-shadow:inset 0px 0px 10px 2px #ffbb72;
+    border-radius: 20px;
+}
+
+.titulo3{
+    position: absolute;
+    top: 215%;
+    right: 22%;
+}
+
+.texto3 {
+    height: 180px;
+    width: 380px;
+    position: absolute;
+    top: 230%;
+    right: 22%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans Extrabold', arial;
+}
+
+.compra3 {
+    padding: 10px;
+    right: 22%;
+    top: 260%;
+    position: absolute;
+    font-size: 20px;
+    color: #ffbb72;
+    border: #ffbb72 solid 3px;
+    box-shadow:inset 0px 0px 10px 2px #ffbb72;
+    border-radius: 20px;
+}
+
+
+.titulo4{
+    position: absolute;
+    top: 290%;
+    left: 22%;
+}
+
+.texto4 {
+    height: 180px;
+    width: 380px;
+    position: absolute;
+    top: 305%;
+    left: 22%;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans Extrabold', arial;
+}
+
+.compra4 {
+    padding: 10px;
+    left: 22%;
+    top: 335%;
+    position: absolute;
+    font-size: 20px;
+    color: #ffbb72;
+    border: #ffbb72 solid 3px;
+    box-shadow:inset 0px 0px 10px 2px #ffbb72;
+    border-radius: 20px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://allfont.es/allfont.css?fonts=star-jedi" rel="stylesheet" type="text/css" />    <title>Inicio</title>
+    <link href="https://allfont.es/allfont.css?fonts=open-sans-extrabold" rel="stylesheet" type="text/css" />
+</head>
+<body class="container">
+    <img src="fondo.jpg" id="fondo" class="img_inicio">
+    <a type="button" onclick="inicio()"><img id="casco" src="casco.png" class="casco"></a>
+    <img src="letras.png" id="letras" class="letras">
+
+
+    <div class="navbar">
+        <a href=index.html><div class="inicio"><p class="pinicio">INICIO</p></div></a>  
+        <a href=productos.html><div class="productos"><p class="pproductos">PRODUCTOS</p></div></a>
+        <a href=contacto.html><div class="contacto"><p class="pcontacto">CONTACTO</p></div></a>
+    </div>
+
+    <div class="neon">
+        Nuevo  
+    </div> 
+
+    <img src="zapatilla.png" class="zapatilla">
+
+    
+
+    <script>
+
+        var casco = document.getElementById("casco");
+        var fondo = document.getElementById("fondo");
+        var letras = document.getElementById("letras");
+
+        function inicio(){
+            if(casco.style.visibility == "inherit"){
+                casco.style.visibility = "hidden";
+                fondo.style.visibility = "hidden";
+                letras.style.top = "2%";
+                letras.style.height = "17%";
+                letras.style.left = "33%";
+            }else{
+                casco.style.visibility = "hidden";
+                fondo.style.visibility = "hidden";
+                letras.style.top = "2%";
+                letras.style.height = "17%";
+                letras.style.left = "33%";
+            }
+        }
+
+
+      </script>
+
+</body>
+</html>
